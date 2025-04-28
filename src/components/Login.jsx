@@ -144,8 +144,8 @@ export default function Login() {
           I agree to terms of service and privacy policy
         </Label>
       </FormGroup>
-      <FormGroup className="text-center p-4">
-        <Button color="primary" disabled={!isValid}>
+      <FormGroup className="submit">
+        <Button color="primary" disabled={!isValid} type='submit'>
           Sign In
         </Button>
       </FormGroup>
